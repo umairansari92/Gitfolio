@@ -1,0 +1,46 @@
+/* Root container ko full width do */
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 2rem;
+  text-align: center;
+  background: rgba(11, 15, 25, 0.7); /* glass effect base */
+  backdrop-filter: blur(12px);
+}
+
+/* Body ko pure dark rakho */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #0b0f19; /* dark background */
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Cards */
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 1.5em;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Links */
+a {
+  color: #4ea1f3;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: #aaa;
+}
